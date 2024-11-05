@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registation Form</title>
+    <link rel="stylesheet" href="js.css" />
+  </head>
+  <!--สร้างฟอร์มสำหรับกรอก Name,Gender (radio), Tntersets (checkbox), Country(select)-->
+  <body>
+    <form action="" id="register">
+      <div>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required /><br />
+      </div>
+      <div>
+        <label>Gender</label>
+        <input type="radio" id="male" name="gender" required />
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" required />
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" required />
+        <label for="other">Other</label><br />
+      </div>
+      <div>
+        <label>Interests</label>
+        <input type="checkbox" id="music" name="interests" />
+        <label for="music">Music</label>
+        <input type="checkbox" id="game" name="interests" />
+        <label for="game">Game</label>
+        <input type="checkbox" id="valorant" name="interests" />
+        <label for="valorant">Valorant</label><br />
+      </div>
+      <div>
+        <label for="country">Country</label>
+        <select name="Country">
+          <option value="Ch">China</option>
+          <option value="us">meca</option>
+          <option value="Th">taigogova</option>
+        </select>
+      </div>
+      <div id="result"></div>
+
+      <input type="submit" value="submit" />
+    </form>
+    <script src="js.js"></script>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dom-1</title>
+    <style>
+      #GameArea {
+        width: 300px;
+        height: 300px;
+        position: relative;
+        border: 1px solid black;
+        background-color: azure;
+      }
+      .cion {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        background-color: goldenrod;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="title">Hello Dom</h1>
+    <p class="description">Learning about DOm</p>
+    <a href="#" id="link">Click Me</a>
+
+    <button id="ChangTextBtn">Chang Text</button>
+    <button id="toggleclassBtn">Toogle Class</button>
+
+    <script src="ex.js"></script>
+    <h1>Game Cion</h1>
+    <div id="GameArea"></div>
+    <p>Score 🧠 : <span id="score">0</span></p>
+    <button id="StartBtn">Start Game</button>
+  </body>
+</html>
