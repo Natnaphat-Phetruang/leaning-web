@@ -1,0 +1,7 @@
+#comments {
+  margin-bottom: 20px;
+}
+#comment p {
+  border: 1px solid#ccc;
+  padding: 15px;
+}
